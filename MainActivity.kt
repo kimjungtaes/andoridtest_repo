@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import com.example.androidfirst.databinding.ActivityMainBinding
 import com.example.androidfirst.databinding.ActivitySub2Binding
+import com.example.androidfirst.databinding.ActivitySub3Binding
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivitySub2Binding
