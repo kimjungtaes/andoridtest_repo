@@ -22,7 +22,7 @@ class MainActivity3 : AppCompatActivity() {
             MotionEvent.ACTION_DOWN -> {
                 Toast.makeText(application, "터치를클릭했습니다", Toast.LENGTH_SHORT).show()
                 Log.d("MainActivity2", "터치를 클릭했습니다 x=${event?.x} rawX = ${event?.rawX}")
-                    "y= ${event?.y} rawY= ${event?.rawY}"
+                "y= ${event?.y} rawY= ${event?.rawY}"
             }
             MotionEvent.ACTION_UP -> {
                 Toast.makeText(applicationContext, "터치를 클릭해제했습니다", Toast.LENGTH_SHORT).show()
@@ -30,5 +30,6 @@ class MainActivity3 : AppCompatActivity() {
                 return super.onTouchEvent(event)
 
             }
+
 
 
